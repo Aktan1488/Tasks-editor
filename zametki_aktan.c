@@ -19,7 +19,8 @@
 	
 #else
     void clearScreen(void) {
-        std::cout << "\033[2J\033[1;1H";
+        printf("\033[2J\033[1;1H");
+
     }
     const char *const CLEAR = "clear";
     
